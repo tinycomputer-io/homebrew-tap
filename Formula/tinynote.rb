@@ -1,8 +1,8 @@
 class Tinynote < Formula
   desc "Minimal, local-first markdown notes TUI over plain files"
   homepage "https://github.com/tinycomputer-io/tinynote"
-  url "https://github.com/tinycomputer-io/tinynote/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "9b73758a272b79ead538d102129db9360e5ad8308edcb693f85c02c3929c77b4"
+  url "https://github.com/tinycomputer-io/tinynote/archive/refs/tags/v0.6.2.tar.gz"
+  sha256 "91da922748980c77d11f9da0ed4eff09f60bb73f7f9dc0c652f18a623fec381a"
   license "MIT"
   head "https://github.com/tinycomputer-io/tinynote.git", branch: "main"
 
