@@ -9,7 +9,10 @@ class Tinynote < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
+    # --locked: without it cargo re-resolves and picks up a ratatui-image
+    # point release that links against chafa, which we don't depend on and
+    # brew has no reason to have. The committed lockfile is the build we test.
+    system "cargo", "install", "--locked", *std_cargo_args
   end
 
   test do
