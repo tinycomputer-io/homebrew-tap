@@ -1,8 +1,8 @@
 class Catcher < Formula
   desc "Minimal, local-first markdown notes TUI over plain files"
   homepage "https://github.com/tinycomputer-io/catcher"
-  url "https://github.com/tinycomputer-io/catcher/archive/refs/tags/v0.13.0.tar.gz"
-  sha256 "31b3f8af81dfb9e5283259379076a51cc2b92c1ce48e0f77c4599bb8ade14787"
+  url "https://github.com/tinycomputer-io/catcher/archive/refs/tags/v0.13.1.tar.gz"
+  sha256 "c305460c3d5b6e7dea6d7941192609068548df92705cb3cc0d6d75cd11929159"
   license "MIT"
   head "https://github.com/tinycomputer-io/catcher.git", branch: "main"
 
