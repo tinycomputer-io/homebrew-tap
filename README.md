@@ -1,14 +1,8 @@
-# tinycomputer tap
+# homebrew-tap (deprecated)
 
-Homebrew formulae for [tinycomputer](https://github.com/tinycomputer-io) tools.
+Moved to [gautham-v/homebrew-tap](https://github.com/gautham-v/homebrew-tap).
 
-```sh
-brew install tinycomputer-io/tap/catcher
 ```
-
-Or tap once and install by name:
-
-```sh
-brew tap tinycomputer-io/tap
-brew install catcher
+brew untap tinycomputer-io/tap
+brew install gautham-v/tap/catcher
 ```
